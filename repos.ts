@@ -2,7 +2,7 @@ import axios from 'axios';
 
 const organization = 'Your Azure Organization Name';
 const personalAccessToken = 'Basic:Your Azure Personal Access Token'; // Personal Access Token a.k.a PAT
-const project = "trainings";
+const project = "Your Azure Project Name";
 
 async function fetchRepositories() {
   try {
